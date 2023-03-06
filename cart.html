@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ok</title>
+<style>
+body{
+
+height: 760px;
+width: 1600px;
+}
+.jan{
+width:100%;
+height:10%;
+background-color:teal;
+}
+.header{
+    height: 5%;
+    width: 100%;
+    display: grid;
+    background-color: rgb(238, 234, 226);
+    background-image: url(movie-abominable-abominable-movie-hd-wallpaper-preview.jpg);
+    shape-image-threshold: inherit;
+    image-resolution: 100%;
+}
+
+.tring{
+height:100%;
+width:50%;
+background-color:rgb(37, 61, 61);
+float:left;
+}
+.gate{
+    background-color: tan;width:20%; float:left;
+}
+.gate:hover{
+    transform: scaleX(90%);
+    overflow: scroll;
+background-image:url(movie-abominable-abominable-movie-hd-wallpaper-preview.jpg);
+}
+.fly{
+height:100%;
+width:50%;
+background-color:rgb(156, 172, 156);
+float:left;
+}
+input[type=search] {
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    width: 30%;
+}
+input:hover[type=search] {
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    width: 20%;
+    background-color: burlywood;
+}
+.product:hover{
+    background-color: slategray;
+    transform: scaleX(90%);
+}
+.header:hover{
+    background-color: gray;
+    width:5%;
+}
+img {
+  -webkit-filter:brightness()(100%); 
+  filter:brightness(100%);
+}
+
+</style>
+</head>
+<body>
+    <div class="header"><a href="#"><img src="movie-abominable-abominable-movie-hd-wallpaper-preview.jpg" style="height: 100%;width:5%"></a></div>
+<div class="jan"><input type="search" style="margin:2%;padding:-1%; margin-left:20%">
+</div>
+    <div class="toolbar" >
+        <h1 class="brand" >Total</h1>
+        <p>
+                <table border="8px" style="width:40%;float:right"><tr><th>Cart items:</th><th>Price:</th>
+               </tr><td><span id="count">0</span></td>
+                <td><span id="sum">0</span></td>
+                <td><span id="gret">0</span></td>
+
+                
+                
+            </tr></table> 
+                             
+        </p>
+       
+    </div>
+    
+
+    <div class="products">
+        <div class="product" style= "width:10%;float:left; background-image: url(grizzly\ bear\ choc\ cake.jpg);">
+            <h3>Brownie</h3>
+           
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="myFunction()"data-id="1" data-price="100" data-title="Product one">Add to cart</button>
+
+            <h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="me()"data-id="2" data-price="100" data-title="Product one">Add to cart</button><h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="gud()"data-id="3" data-price="100" data-title="Product one">Add to cart</button><h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="got()"data-id="4" data-price="100" data-title="Product one">Add to cart</button>
+        </div>
+        <div class="product" style= "width:10%;float:left; background-image: url(grizzly\ bear\ choc\ cake.jpg);">
+            <h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="get()"data-id="5" data-price="100" data-title="Product one">Add to cart</button>
+
+            <h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="heaven()"data-id="6" data-price="100" data-title="Product one">Add to cart</button><h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="move()"data-id="7" data-price="100" data-title="Product one">Add to cart</button><h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="fake()"data-id="8" data-price="100" data-title="Product one">Add to cart</button>
+        </div>
+        <div class="product" style= "width:10%;float:left; background-image: url(grizzly\ bear\ choc\ cake.jpg);">
+            <h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="real()"data-id="9" data-price="100" data-title="Product one">Add to cart</button>
+
+            <h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="oh()"data-id="10" data-price="100" data-title="Product one">Add to cart</button><h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="ok()"data-id="11" data-price="100" data-title="Product one">Add to cart</button><h3>Brownie</h3>
+            <img src="brown cake.jpg" style="width:90%"><br>
+            <button onclick="fine()"data-id="12" data-price="100" data-title="Product one">Add To Cart</button>
+        </div>
+        <div class="gate" >
+            <table><tr><th></th></tr>
+            <tr><td><p id="demo"></p></td></tr>
+            <p id="god"></p>
+            <p id="m"></p>
+            <p id="r"></p>
+            <p id="v"></p>
+            <p id="h"></p>
+            <p id="k"></p>
+            <p id="o"></p>
+            <p id="p"></p>
+            <p id="l"></p>
+            <p id="a"></p>
+            <p id="n"></p>
+        </table>
+    
+    
+        </div>
+</div>
+
+<script>
+    
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Brownie</ul>, 120$</ul>";}
+ function me(){ document.getElementById("god").innerHTML = "380$";}
+  function gud(){ document.getElementById("m").innerHTML = "380$";}
+function got() {document.getElementById("r").innerHTML = "380$";}
+function get() {document.getElementById("v").innerHTML = "380$";}
+function heaven(){document.getElementById("h").innerHTML = "380$";}
+function move(){document.getElementById("k").innerHTML = "380$";}
+function fake(){document.getElementById("o").innerHTML = "380$";}
+function real(){document.getElementById("p").innerHTML = "380$";}
+function oh() {document.getElementById("l").innerHTML = "380$";}
+function ok() {
+  document.getElementById("a").innerHTML = "380$";
+}
+function fine(){document.getElementById("n").innerHTML = "380$";}
+let count = 0;
+let sum = 0;
+let gret = 0;
+
+let cart = {};
+
+if (localStorage.getItem("count")) {
+    count = parseInt(localStorage.getItem("count"));
+}
+
+if (localStorage.getItem("sum")) {
+    sum = parseInt(localStorage.getItem("sum"));
+}
+
+if (localStorage.getItem("cart")) {
+    cart = JSON.parse(localStorage.getItem("cart"));
+}
+if (localStorage.removeItem("gret")){
+    sum =parseInt(localStorage.getItem("gret"))
+}
+
+ updateCart();
+
+let btns = document.querySelectorAll(".products button");
+
+for (let i = 0; i < btns.length; i++) {
+    let btn = btns[i];
+    btn.addEventListener("click", add);
+
+   
+}
+
+
+
+function add(event) {
+    let price = Number(event.target.dataset.price);
+    let title = event.target.dataset.title;
+    let id = event.target.dataset.id;
+
+if (id in cart) {
+    cart[id].qty++;
+} else {
+    let cartItem = {
+        title: title,
+        price: price,
+        qty: 1
+    };
+    cart[id] = cartItem
+}
+
+    count++;
+    sum += price;
+
+    console.log(cart);
+
+    
+    localStorage.setItem("cart", JSON.stringify(cart));
+    updateCart();
+}
+
+
+function updateCart() {
+    document.getElementById("sum").textContent = sum;
+    document.getElementById("count").textContent = count;
+    document.getElementById("gret").textContent = gret;
+    localStorage.setItem("gret", gret);
+    localStorage.setItem("sum", sum);
+    localStorage.setItem("count", count);
+    localStorage.removeItem("sum");
+    localStorage.removeItem("count", count);
+    localStorage.removeItem("gret", gret);
+
+
+}
+
+</script>
+
+</body>
+</html>
